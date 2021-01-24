@@ -1,3 +1,13 @@
+* {
+	font-family : -apple-system, BlinkMacSystemFont, Oxygen-Sans, Ubuntu, Cantarell, Roboto,
+       "Trebuchet MS", "Helvetica Neue", "Segoe UI", 
+        Helvetica, Verdana, Arial, sans-serif;
+}
+
+header, footer, p {
+    font-size: 16px;
+}
+
 header, footer, section {
     text-align: center;
 }
@@ -12,8 +22,11 @@ main {
 
 footer {
     background-color: burlywood;
+    font-size: smaller;
 }
 
 section {
     background-color: darkgray;
+    max-width: 80rem;
+    margin: 0 auto;
 }
