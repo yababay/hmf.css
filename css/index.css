@@ -1,0 +1,19 @@
+header, footer, section {
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: bisque;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+section {
+    background-color: darkgray;
+}
