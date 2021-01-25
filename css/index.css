@@ -8,14 +8,12 @@ header, footer, p {
     font-size: 16px;
 }
 
-header, footer, section {
+footer, section {
     text-align: center;
 }
 
 header {
     background-color: aqua;
-    padding: 0px 2rem 0px 2rem;
-    width: calc(100% - 4rem);
 }
 
 main {
@@ -32,3 +30,21 @@ section {
     max-width: 80rem;
     margin: 0 auto;
 }
+
+p {
+    background-color: grey;
+}
+
+/*
+
+footer {
+    background-color: burlywood;
+    font-size: smaller;
+}
+
+section {
+    background-color: darkgray;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+*/

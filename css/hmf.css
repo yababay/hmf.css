@@ -10,11 +10,14 @@ body, header, footer, main, section {
     width: 100%;
 }
 
-body {
+body, section {
     display         : flex;
     align-items     : center;
     flex-direction  : column;
     justify-content : space-between;
+}
+
+body {
     min-height: var(--body-min-height);
 }
 
@@ -49,12 +52,11 @@ body {
     --main-min-height: calc(var(--body-min-height) - var(--header-height) - var(--footer-height));
 }
 
-main {
+main, section {
     min-height: var(--main-min-height);
 }
 
 section {
-    padding-top: 1px;
     min-height: calc(var(--main-min-height) - 1px);
 }
 
